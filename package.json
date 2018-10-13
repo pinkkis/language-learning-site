@@ -1,0 +1,60 @@
+{
+  "name": "language-learning-site",
+  "version": "1.0.0",
+  "description": "language-learning-site",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinkkis/language-learning-site.git"
+  },
+  "keywords": [],
+  "author": "Kristian Koivisto-Kokko <pinkkis@gmail.com> (http://pinkkis.com/)",
+  "contributors": [
+    "Victoria Koivisto-Kokko"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pinkkis/language-learning-site/issues"
+  },
+  "homepage": "https://github.com/pinkkis/language-learning-site#readme",
+  "dependencies": {
+    "register-service-worker": "^1.0.0",
+    "vue": "^2.5.17",
+    "vue-class-component": "^6.0.0",
+    "vue-property-decorator": "^7.0.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@types/jest": "^23.1.4",
+    "@vue/cli-plugin-babel": "^3.0.5",
+    "@vue/cli-plugin-pwa": "^3.0.5",
+    "@vue/cli-plugin-typescript": "^3.0.5",
+    "@vue/cli-plugin-unit-jest": "^3.0.5",
+    "@vue/cli-service": "^3.0.5",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-loader": "^8.0.4",
+    "node-sass": "^4.9.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^7.0.1",
+    "ts-jest": "^23.0.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.3",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
